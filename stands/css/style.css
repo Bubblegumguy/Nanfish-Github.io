@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .nav-bar-ctn a{
     color: #fff;
     text-decoration: none;
@@ -29,4 +36,23 @@
 .nav-bar-ctn{
     display: flex;
     margin-right: 40px;
+}
+
+.container-logo img{
+    height: 60px;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+.ctn-hero-nav{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(/Images/jojojobackground.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+/** Background and Navigation bar thing**/ 
+.StarPlatinum img{
+background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)), url(/Images/StarPlatinum.png);
+background-size: cover;
+background-position: center;
 }
