@@ -16,7 +16,7 @@ body{
 
 .ctn-hero-nav{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(../Images/hero-background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(../Images/jojo-background.png);
     background-size: cover;
     object-fit: cover;
 }
@@ -111,8 +111,8 @@ body{
 /**CHAR**/
 
 .new-image{
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background: #fff;
     border-radius: 5px;
     position: relative;
@@ -125,27 +125,27 @@ body{
     background-position: center;
 }
 .char-2{
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/char-2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/TheWorld.png);
     background-size: cover;
     background-position: center;
 }
 .char-3{
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/char-3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/SilverChariot.png);
     background-size: cover;
     background-position: center;
 }
 .char-4{
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/char-4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MagiciansRed.png);
     background-size: cover;
     background-position: center;
 }
 .char-5{
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/char-5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/HermitPurple.png);
     background-size: cover;
     background-position: center;
 }
 .char-6{
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/char-6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/HierophantGreen.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -163,7 +163,7 @@ body{
 }
 
 .new-text h3{
-    font-size: 22px;
+    font-size: 35px;
     font-family: 'Dosis', sans-serif;
 }
 
@@ -317,3 +317,24 @@ body{
 .icono a:hover{
     color: #666;
 }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
