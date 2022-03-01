@@ -149,7 +149,36 @@ body{
     background-size: cover;
     background-position: center;
 }
-
+.char-7{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaSP.png);
+    background-size: cover;
+    background-position: center;
+}
+.char-8{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaTW.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.char-9{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaSC.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.char-10{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaMR.png);
+    background-size: cover;
+    background-position: center;
+}
+.char-11{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaHP.png);
+    background-size: cover;
+    background-position: center;
+}
+.char-12{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)),url(../Images/MangaHG.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .ctn-p-news{
     display: flex;
     justify-content: center;
