@@ -46,13 +46,23 @@
 
 .ctn-hero-nav{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(jojojobackground.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(/Images/jojojobackground.jpg);
     background-size: cover;
     object-fit: cover;
 }
 /** Background and Navigation bar thing**/
-.StarPlatinum img{
-background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)), url(StarPlatinum.png);
+
+.StarPlatinum {
+background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.3)), url(/Images/StarPlatinum.png);
 background-size: cover;
 background-position: center;
+}
+
+.new-image{
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
 }
